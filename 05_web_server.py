@@ -1,13 +1,14 @@
-from flask import Flask, render_template, request
-import requests
+# TODO Mentors: Explain the concept of a web server & routes
 
-# TODO: Mentors explain the sequence of the execution with the functions
+from flask import Flask
 
-api_key=""
-url = f'http://api.weather.com/key="{api_key}"'
+app = Flask(__name__)
 
-response = requests.get(url)
 
-#TODO: add everything in a function
+@app.route("/")
+def welcome_to_my_website():
+        data = "Welcome to my website!"
+        return data
 
+# TODO Exercise: add a page called 'about' which shows your name & your city
 

@@ -1,10 +1,7 @@
-# TODO Mentors: Explain what is a python package generally and specifically requests & properties
-import requests
+# TODO Mentors: Explain what is PyCharm versus notebook
 
-url = f'https://www.google.com'
+text = 'Hi, Bella! This is my first weather app!'
 
-response = requests.get(url)
+print('text')
 
-# TODO TechGirls: Print the output of the response
-
-print(response.content)
+# TODO TechGirls: Execute th code with the command `python 00_my_first_project.py`
