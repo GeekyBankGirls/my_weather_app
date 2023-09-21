@@ -1,6 +1,7 @@
 import requests
 
 # TODO Mentors: Explain what is an API & authentication & query string parameters
+# TODO Organizers: Add a link as a reference
 
 api_key=""
 url = f'http://api.weather.com/key="{api_key}"'

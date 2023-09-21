@@ -29,8 +29,11 @@ Execute from the same command line
 
 # Concepts that you will learn with this weather app
 - Web server / HTTP status codes 
-- client-server communication
-- query string parameter
-- framework / flask / routes
-- api / api key & authentication
-- python packages / requests / requirements.txt
+- Client-server communication
+- Query string parameter
+- Framework / flask / routes
+- Api / api key & authentication
+- Python packages / requests / requirements.txt
+
+
+# TODO Organizers: Add simple UI example as a bonus

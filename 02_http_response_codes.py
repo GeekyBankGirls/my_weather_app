@@ -1,4 +1,5 @@
 # TODO Mentors: Explain HTTP codes & statuses
+# TODO Organizers: Add a link about the topic as a reference
 
 import requests
 
