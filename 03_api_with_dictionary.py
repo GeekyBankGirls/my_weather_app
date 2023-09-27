@@ -1,6 +1,7 @@
+# TODO Mentors: Explain how do we get the specific information that we need from an API?
+
 import requests
 
-# TODO Mentors: Explain how do we get the specific information that we need from an API?
 
 api_key=""
 city="Amsterdam"

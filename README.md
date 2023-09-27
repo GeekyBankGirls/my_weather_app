@@ -33,7 +33,7 @@ Execute from the same command line
 # Create an account on the weather api
 1. Create an account on https://www.weatherapi.com/signup.aspx
 1. After creating an account and logging in, click on "My Account" on the right top corner
-1. Copy the 'API Key' value and save it somewhere in your computer.
+1. Copy the 'API Key' value and save it somewhere in your computer. Do not share your api key with others :)
 1. Don't worry we will explain it during the workshop. Trial is free!
 
 

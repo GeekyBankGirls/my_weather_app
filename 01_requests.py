@@ -14,8 +14,8 @@ response = requests.get(url)
 
 print(response.content)
 
-# TechWomen Exercise 1 : Print the output of the response
+# TODO TechWomen Exercise 1 : Print the output of the response
 
-# TechWomen Exercise 2 : Make a request to another web page
+# TODO TechWomen Exercise 2 : Make a request to another web page
 
-# TechWomen Exercise 3 : Explore requests library and discuss the other options in the library
+# TODO TechWomen Exercise 3 : Explore requests library and discuss the other options in the library

@@ -1,5 +1,9 @@
 # TODO Mentors: Explain HTTP codes & statuses
-# TODO Organizers: Add a link about the topic as a reference
+
+"""
+Reads:
+    What are the HTTP codes? https://http.dev/status
+"""
 
 import requests
 
@@ -7,17 +11,17 @@ url = f'http://www.google.com'
 
 response = requests.get(url)
 
-# TODO TechGirls Exercise 1: Get a HTTP response of 200 code and print it
+# TODO TechWomen Exercise 1: Get a HTTP response of 200 code from the request and print the output
 print(response)
 
-# TODO TechGirls Exercise 2: Get a HTTP response of 404 code and print it
+# TODO TechWomen Exercise 2: Get a HTTP response of 404 code from the request and print the output
 
 url = f'http://www.google.com/mycoolwebsite'
 
 response = requests.get(url)
 print(response)
 
-# TODO TechGirls Exercise 3: Add a condition that checks whether the HTTP status code is 200 and print the output
+# TODO TechWomen Exercise 3: Add a condition that checks whether the HTTP status code is 200 and print the output
 
 url = f'http://www.google.com'
 
