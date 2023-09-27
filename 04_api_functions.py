@@ -2,7 +2,7 @@
 
 """
 Reads:
-    Check out the functions class that we learned in the morning :) https://github.com/TechWomenTribe/introduction_to_python/blob/main/tutorial/02_Functions.ipynb
+    Check out the functions tutorial that we learned in the morning :) https://github.com/TechWomenTribe/introduction_to_python/blob/main/tutorial/02_Functions.ipynb
 """
 
 import requests
@@ -26,9 +26,9 @@ def get_weather():
             "city": json_response["location"]["name"],
             "degree": json_response["current"]["temp_c"]
         }
-        print(weather_today)
+        return weather_today
     else:
-        print("There was a problem!")
+        return "There was a problem!"
 
 
 print(get_weather())
