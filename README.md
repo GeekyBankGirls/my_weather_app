@@ -13,12 +13,12 @@ Welcome to the Weather App repository! :) You have already achieved your first g
 # Setup your workspace
 1. First we need to start setting up your workspace. Please follow the instructions below. In case of errors or any questions, do not hesitate to reach out to your mentor :)
 1. Open your command prompt or terminal.
-   2. Windows:
-      3. Open the Start menu or press the Windows key + R.
-      4. Type cmd or cmd.exe in the Run command box.
-      5. Press Enter.
-   6. Mac:
-      7. Click the Launchpad in the Dock, type Terminal in the search field, then click Terminal.
+   1. Windows:
+      1. Open the Start menu or press the Windows key + R.
+      1. Type cmd or cmd.exe in the Run command box.
+      1. Press Enter.
+   1. Mac:
+      1. Click the Launchpad in the Dock, type Terminal in the search field, then click Terminal.
 2. Clone this repository by executing the command below
    `git clone https://github.com/TechWomenTribe/my_weather_app.git`
 1. Navigate to your project directory.
