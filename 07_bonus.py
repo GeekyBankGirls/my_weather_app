@@ -26,25 +26,3 @@ response = requests.get(url)
 #  3. If the weather degree above 30 show heat emoji
 #  4. Anything else you can come up with. Be creative! :)
 #  5. Run your Flask API with the command `flask --app 06_weather_app.py run --host=0.0.0.0`
-
-
-@app.route("/weather")
-def get_weather():
-    if response.status_code == 200:
-        json_response = response.json()
-        weather_today = {
-            "city": json_response["location"]["name"],
-            "degree": json_response["current"]["temp_c"]
-        }
-        print(weather_today)
-        city_name = weather_today["city"]
-        degree = weather_today["degree"]
-        if degree > 20.0:
-            my_emoji = emoji.emojize(":red_heart:")
-        elif 0.0 <= degree <= 18.0:
-            my_emoji = emoji.emojize(' 🌦️')
-        else:
-            my_emoji = emoji.emojize(' 🥶')
-        return render_template('homepage.html', name=city_name, degree=degree, emoji=my_emoji)
-    else:
-        return "There was a problem!"

@@ -19,18 +19,6 @@ response = requests.get(url)
 #  5. Run your Flask API with the command `flask --app 06_weather_app.py run --host=0.0.0.0`
 
 
-@app.route("/weather")
-def get_weather():
-    if response.status_code == 200:
-        json_response = response.json()
-        weather_today = {
-            "city": json_response["location"]["name"],
-            "degree": json_response["current"]["temp_c"]
-        }
-        return weather_today
-    else:
-        return "There was a problem!"
-
 
 
 

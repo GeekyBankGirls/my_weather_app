@@ -19,18 +19,3 @@ response = requests.get(url)
 #  3. Print the result of the function
 
 
-def get_weather():
-    if response.status_code == 200:
-        json_response = response.json()
-        weather_today = {
-            "city": json_response["location"]["name"],
-            "degree": json_response["current"]["temp_c"]
-        }
-        return weather_today
-    else:
-        return "There was a problem!"
-
-
-print(get_weather())
-
-

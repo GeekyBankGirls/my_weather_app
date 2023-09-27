@@ -17,12 +17,3 @@ response = requests.get(url)
 # TODO TechWomen Exercise 1:  Print the output of the response from the weather api if the status is 200
 
 # TODO TechWomen Exercise 2:  Print the output with an error message using else statement
-
-if response.status_code == 200:
-    print(response.content)
-else:
-    print("There was a problem!")
-
-
-
-

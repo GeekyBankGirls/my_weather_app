@@ -16,31 +16,7 @@ response = requests.get(url)
 
 # TODO TechWomen Exercise 1:  Get the weather degree for Amsterdam from the weather api for today
 
-if response.status_code == 200:
-    json_response = response.json()
-    weather_today = {
-        "city" : json_response["location"]["name"],
-        "degree" : json_response["current"]["temp_c"]
-    }
-    print(weather_today)
-else:
-    print("There was a problem!")
-
-
 # TODO TechWomen Exercise 2: Aren't you curious what's the weather in your home town? Let's find out.
 
 # TODO TechWomen Exercise 3: Explore the JSON response from the Weather API and print out the weather condition as a text
-
-if response.status_code == 200:
-    json_response = response.json()
-    weather_today = {
-        "city" : json_response["location"]["name"],
-        "degree" : json_response["current"]["condition"]["text"]
-    }
-    print(weather_today)
-else:
-    print("There was a problem!")
-
-
-
 
