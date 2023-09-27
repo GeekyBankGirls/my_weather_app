@@ -1,10 +1,10 @@
 # TODO Mentors: Explain what is PyCharm versus notebook
 
-###
-# Reads:
-# What is an IDE? https://www.codecademy.com/article/what-is-an-ide
-# What is PyCharm? https://intellipaat.com/blog/what-is-pycharm/
-###
+"""
+ Reads:
+     What is an IDE? https://www.codecademy.com/article/what-is-an-ide
+     What is PyCharm? https://intellipaat.com/blog/what-is-pycharm/
+"""
 
 text = 'Hi, Bella! This is my first weather app!'
 

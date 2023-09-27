@@ -1,10 +1,10 @@
 # TODO Mentors: Explain what is a python package generally and specifically requests & properties
 
-###
-# Reads:
-# What is a Python package? https://www.geeksforgeeks.org/python-packages/
-# What is HTTP? What is Python Requests Library? https://www.dataquest.io/blog/tutorial-an-introduction-to-python-requests-library/
-##
+"""
+Reads:
+    What is a Python package? https://www.geeksforgeeks.org/python-packages/
+    What is HTTP? What is Python Requests Library? https://www.dataquest.io/blog/tutorial-an-introduction-to-python-requests-library/
+"""
 
 import requests
 
