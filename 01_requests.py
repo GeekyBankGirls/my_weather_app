@@ -17,6 +17,10 @@ url = f'https://www.google.com'
 
 response = requests.get(url)
 
-# TODO TechGirls: Print the output of the response
-
 print(response.content)
+
+# TODO TechWomen Exercise 1 : Print the output of the response
+
+# TODO TechWomen Exercise 2 : Make a request to another web page
+
+# TODO TechWomen Exercise 3 : Explore requests library and discuss the other options in the library
