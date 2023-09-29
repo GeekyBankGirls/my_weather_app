@@ -26,7 +26,3 @@ if response.status_code == 200:
     print(response.content)
 else:
     print("There was a problem!")
-
-
-
-

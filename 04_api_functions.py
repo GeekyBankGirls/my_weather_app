@@ -26,5 +26,3 @@ def get_weather():
 
 
 print(get_weather())
-
-

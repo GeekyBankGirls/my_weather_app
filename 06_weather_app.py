@@ -27,5 +27,3 @@ def get_weather():
         return weather_today
     else:
         return "There was a problem!"
-
-

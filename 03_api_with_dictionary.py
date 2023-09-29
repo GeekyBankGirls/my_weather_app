@@ -23,7 +23,3 @@ else:
 
 
 # TODO TechGirls: Aren't you curious what's the weather in your home town? Let's check it out.
-
-
-
-
