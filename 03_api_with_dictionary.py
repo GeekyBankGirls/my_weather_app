@@ -19,4 +19,3 @@ response = requests.get(url)
 # TODO TechWomen Exercise 2: Aren't you curious what's the weather in your home town? Let's find out.
 
 # TODO TechWomen Exercise 3: Explore the JSON response from the Weather API and print out the weather condition as a text
-

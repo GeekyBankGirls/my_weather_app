@@ -17,5 +17,3 @@ response = requests.get(url)
 #  1. Add everything in a function that returns the city name and the temp_c value or the message "There was a problem!"
 #  2. Call the function
 #  3. Print the result of the function
-
-

@@ -4,6 +4,7 @@
 Reads:
     What is a web server? https://developer.mozilla.org/en-US/docs/Learn/Common_questions/Web_mechanics/What_is_a_web_server
     What is Flask? https://pythonbasics.org/what-is-flask-python/
+    What is rest API (with nice image)? https://mannhowie.com/rest-api
 """
 
 from flask import Flask
@@ -21,5 +22,4 @@ def welcome_to_my_website():
 #       2. Check your website from your browser
 
 
-# TODO TechWomen Exercise 1:  Add a page called 'about' which shows your name & your city
-
+# TODO TechWomen Exercise 2:  Add a page called 'about' which shows your name & your city

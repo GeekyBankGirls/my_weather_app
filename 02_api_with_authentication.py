@@ -1,3 +1,13 @@
+##############################
+#
+# An API (Application Programming Interface) is a set of rules and protocols that allows
+# different software applications to communicate with each other.
+# It defines how different software components should interact and exchange data.
+# APIs are commonly used to enable third-party developers to access the functionality of
+# a software platform or service.
+#
+##############################
+
 # TODO Mentors: Explain what is an API & authentication & query string parameters
 
 """

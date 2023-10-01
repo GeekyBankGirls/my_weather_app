@@ -17,9 +17,3 @@ response = requests.get(url)
 #  3. If the weather degree above 30 show heat emoji
 #  4. Anything else you can come up with. Be creative! :)
 #  5. Run your Flask API with the command `flask --app 06_weather_app.py run --host=0.0.0.0`
-
-
-
-
-
-
