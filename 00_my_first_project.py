@@ -1,7 +1,7 @@
 ##############################
 #
 # Welcome!
-# In the comming fields, we will be building a weather app which collects and displays the weather for a cetrain location.
+# In this project, we will be building a weather app which collects and displays the weather for a certain location.
 # We will guide you through the code step by step, if there are any questions then feel free to ask the mentors.
 #
 # Important here is that we will step away from the ease of the Jupyter Notebooks that we used in the 'Intro to Python'

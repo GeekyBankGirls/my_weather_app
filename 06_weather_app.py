@@ -1,5 +1,11 @@
 # TODO Mentors: Explain the requirements of the exercise
 
+"""
+Reads:
+    How to print emoji: https://medium.com/analytics-vidhya/how-to-print-emojis-using-python-2e4f93443f7e
+    Emoji list https://unicode.org/emoji/charts/emoji-list.html
+"""
+
 from flask import Flask
 import requests
 
