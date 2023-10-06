@@ -21,7 +21,7 @@
      What is PyCharm? https://intellipaat.com/blog/what-is-pycharm/
 """
 
-text = 'Hi, Bella! This is my first weather app!'
+text = 'Hi, Prathiba! This is my first weather app!'
 
 print(text)
 
